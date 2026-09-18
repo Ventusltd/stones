@@ -38,7 +38,8 @@ implying more than it can support.
 
 Each record carries two digests:
 
-- **`key`**, the SHA-256 of the published record itself. It names the record permanently.
+- **`key`**, the SHA-256 of the record's LF normalised content. It names the record permanently and
+  reproduces identically on any machine, whatever that machine's line ending convention.
 - **`source_digest`**, the SHA-256 of the private working note it was distilled from.
 
 The source digest lets the original be matched to its published summary later, by anyone holding
@@ -53,10 +54,14 @@ the index is wrong and should be reported, not trusted.
 
 ## Enforcement
 
-This policy is intended to be executable rather than aspirational. The intended mechanism is a
-CVAA vaccine: a named failure mode plus an automated check that fails the build if a published
-record contains an excluded class of content, or if any record's key does not match its content.
-Until that check exists, this policy is enforced by review, and that limitation is stated here
-rather than implied away.
+This policy is executable, not aspirational. `tools/check-policy.mjs` runs on every push and fails
+the build if a record contains an excluded class of content, omits required front matter, carries a
+source digest that is not a SHA-256, or has a key absent from `INDEX.md`. It **fails closed**: zero
+records examined is a failure, not a pass.
+
+It works by allowlist for structure and denylist for content, and a denylist can only catch what it
+has been taught. It is therefore a floor rather than a guarantee, and no record is published without
+human release. This is a CVAA vaccine in form, a named failure mode plus the executable check that
+makes the repository immune to it, and it is intended to move into that registry.
 
 No warranty is given.

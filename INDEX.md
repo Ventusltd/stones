@@ -1,19 +1,19 @@
 # INDEX
 
-Distilled public records from the GlobalGrid2050 working notes. Read [POLICY.md](POLICY.md) first:
-it states what is published, what is excluded as a matter of policy, and how each record is keyed.
+Distilled public records from the GlobalGrid2050 working notes. Read [POLICY.md](POLICY.md)
+first: it states what is published, what is excluded as a matter of policy, and how each record is
+keyed.
 
-`key` is the SHA-256 of the record file. `source` is the SHA-256 of the private working note it was
-distilled from, so the two can be matched later by anyone holding both, without the original ever
-being published.
+`key` is the SHA-256 of the record's **LF normalised content**, so it reproduces on any machine.
+`source` is the SHA-256 of the private working note the record was distilled from, so the two can
+be matched later by anyone holding both, without the original ever being published.
 
-Verify any row with `sha256sum <file>`. If a key does not match its file, this index is wrong and
-should be reported rather than trusted.
+Every record is checked on every push by `tools/check-policy.mjs`, which fails closed.
 
 | date (UTC) | record | key | source |
 |---|---|---|---|
-| 2026-09-18T22:55Z | [Verification by key, and what it found](records\20260918T2255Z-verification-by-key.md) | `890cfec48e98fec8...` | `57c3d1365e95a284...` |
-| 2026-09-18T23:15Z | [Content deduplication across a 65 repository estate](records\20260918T2315Z-estate-deduplication.md) | `d665a1d637379b52...` | `207862af77e04575...` |
+| 2026-09-18T22:55Z | [Verification by key, and what it found](records/20260918T2255Z-verification-by-key.md) | `890cfec48e98fec8...` | `57c3d1365e95a284...` |
+| 2026-09-18T23:15Z | [Content deduplication across a 65 repository estate](records/20260918T2315Z-estate-deduplication.md) | `d665a1d637379b52...` | `207862af77e04575...` |
 
 ## Full digests
 
@@ -25,5 +25,5 @@ should be reported rather than trusted.
 ## Coverage
 
 The private working notes number 159 documents at the time of this index. Distillation has begun
-with the most recent and is incomplete. The backlog is stated here rather than implied away, and
-this index will report the count as it changes.
+with the most recent and is incomplete. Not every note will be published: a note without a
+measurement a stranger could check does not earn a record.

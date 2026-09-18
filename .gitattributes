@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Text is stored and checked out with LF, so a digest taken on one machine
+# matches a digest taken on another. Keys are defined over LF normalised content.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
