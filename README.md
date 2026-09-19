@@ -20,3 +20,7 @@ Every number here came from a command that can fail. No warranty is given.
 
 Run `20260918T235001Z`, digest `05d53bf9a492e6036759c4a706ff6e587564d3987b563b62183459e3c3022262`. LAWS.md L10.
 <!-- DRIFT:END -->
+
+## Licence
+
+Open to all. The code is under the Apache License 2.0 (see LICENSE). Original text, tables and ledgers produced by this repository are under CC BY 4.0: use them, and say where they came from. Material belonging to others keeps its own licence, named beside it; standards are cited by clause and value and never reproduced.
