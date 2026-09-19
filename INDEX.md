@@ -17,6 +17,7 @@ Every record is checked on every push by `tools/check-policy.mjs`, which fails c
 | 2026-09-19T00:20Z | [Rendering a repository estate as content identifiers](records/20260919T0020Z-estate-as-content-identifiers.md) | `06a6d3424a5d61a0...` | `85e9065738e96173...` |
 | 2026-09-19T01:15Z | [Reusing an existing renderer instead of building a second one](records/20260919T0115Z-reuse-before-rebuild.md) | `ec7faad5eb30509b...` | `d62b01784a3fa2d5...` |
 | 2026-09-19T15:45Z | [Engineering record of a 21 hour work period](records/20260919T1545Z-engineering-record-21-hour-work-period.md) | `f02b75627f3448d6...` | `2a628be8eb387878...` |
+| 2026-09-19T22:06Z | [Dots that answer to other dots: a test of whether the display can compute](records/20260919T2206Z-cells-that-compute.md) | `915ed513f0f4a830...` | `f4e173a369d97dfd...` |
 
 ## Full digests
 
@@ -27,6 +28,7 @@ Every record is checked on every push by `tools/check-policy.mjs`, which fails c
 | `20260919T0020Z-estate-as-content-identifiers.md` | `06a6d3424a5d61a0550ad81661aa52e6e76e71ac8b2ba616c01bb2aca27448be` | `85e9065738e961737672a71330910bfe31402fe296d1541e0953ca7a87d94f28` |
 | `20260919T0115Z-reuse-before-rebuild.md` | `ec7faad5eb30509b5f4c1926be940c24f393dd902513af835166d2bf9902fac6` | `d62b01784a3fa2d5c5728bd0fb3337f3f0d7e1567d185768a787780a7716d6c2` |
 | `20260919T1545Z-engineering-record-21-hour-work-period.md` | `f02b75627f3448d6ed6e7c2112b26296acda693c345a7345bf405b2d2e49a595` | `2a628be8eb387878278a76fd3f119b582f10fc3eac59d2b5d0492f66db615d96` |
+| `20260919T2206Z-cells-that-compute.md` | `915ed513f0f4a8308f71b304b03196f33087d69f605274d6bc5dd32498c0bb08` | `f4e173a369d97dfda6a0cd2681267d1cd17f61fd80d24364cb3e2084d04535be` |
 
 ## Coverage
 
