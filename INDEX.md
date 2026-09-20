@@ -18,6 +18,7 @@ Every record is checked on every push by `tools/check-policy.mjs`, which fails c
 | 2026-09-19T01:15Z | [Reusing an existing renderer instead of building a second one](records/20260919T0115Z-reuse-before-rebuild.md) | `ec7faad5eb30509b...` | `d62b01784a3fa2d5...` |
 | 2026-09-19T15:45Z | [Engineering record of a 21 hour work period](records/20260919T1545Z-engineering-record-21-hour-work-period.md) | `f02b75627f3448d6...` | `2a628be8eb387878...` |
 | 2026-09-19T22:06Z | [Dots that answer to other dots: a test of whether the display can compute](records/20260919T2206Z-cells-that-compute.md) | `915ed513f0f4a830...` | `f4e173a369d97dfd...` |
+| 2026-09-20T17:04Z | [A grid drawn as a map people can travel on, and what a billion local runs did and did not buy](records/20260920T1704Z-a-grid-as-a-map-people-can-travel-on.md) | `0ebc0bef65ec267a...` | `0e0ed1f5b31eec7c...` |
 
 ## Full digests
 
@@ -29,6 +30,7 @@ Every record is checked on every push by `tools/check-policy.mjs`, which fails c
 | `20260919T0115Z-reuse-before-rebuild.md` | `ec7faad5eb30509b5f4c1926be940c24f393dd902513af835166d2bf9902fac6` | `d62b01784a3fa2d5c5728bd0fb3337f3f0d7e1567d185768a787780a7716d6c2` |
 | `20260919T1545Z-engineering-record-21-hour-work-period.md` | `f02b75627f3448d6ed6e7c2112b26296acda693c345a7345bf405b2d2e49a595` | `2a628be8eb387878278a76fd3f119b582f10fc3eac59d2b5d0492f66db615d96` |
 | `20260919T2206Z-cells-that-compute.md` | `915ed513f0f4a8308f71b304b03196f33087d69f605274d6bc5dd32498c0bb08` | `f4e173a369d97dfda6a0cd2681267d1cd17f61fd80d24364cb3e2084d04535be` |
+| `20260920T1704Z-a-grid-as-a-map-people-can-travel-on.md` | `0ebc0bef65ec267a6fad935304ac3539b090a9d6a8b97a025e9403a0011ad3b1` | `0e0ed1f5b31eec7c62bc0d438725eccb475dc10a8c625b60639b6e39d0886449` |
 
 ## Coverage
 
